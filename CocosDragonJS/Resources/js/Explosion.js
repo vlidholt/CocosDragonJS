@@ -5,8 +5,8 @@ var Explosion = function()
 
 Explosion.prototype.onDidLoadFromCCB = function()
 {
-    this.rootNode.animationManager.setCompletedAnimationCallback(this, this.onAnimationComplete);
-}
+    this.rootNode.animationManager.setCompletedAnimationCallback(this.onAnimationComplete, this);
+};
 
 Explosion.prototype.onUpdate = function()
 {};
@@ -18,4 +18,4 @@ Explosion.prototype.onAnimationComplete = function(animationManager)
 {
     cc.log("removing explosion!");
     this.isScheduledForRemove = true;
-}
+};

@@ -10,16 +10,16 @@ Level.prototype.onDidLoadFromCCB = function()
     this.rootNode.onTouchesBegan = function( touches, event) {
         this.controller.onTouchesBegan(touches, event);
         return true;
-    }
+    };
     this.rootNode.onTouchesMoved = function( touches, event) {
         this.controller.onTouchesMoved(touches, event);
         return true;
-    }
-    
+    };
+
     // Schedule callback
     this.rootNode.onUpdate = function(dt) {
         this.controller.onUpdate();
-    }
+    };
     this.rootNode.schedule(this.rootNode.onUpdate);
 };
 
@@ -27,13 +27,20 @@ Level.prototype.onTouchesBegan = function(touches, event)
 {
     var loc = touches[0].getLocation();
     this.dragon.controller.xTarget = loc.x;
-}
+};
 
 Level.prototype.onTouchesMoved = function(touches, event)
 {
     var loc = touches[0].getLocation();
     this.dragon.controller.xTarget = loc.x;
-}
+};
+
+Level.prototype.onMouseDragged = function(event)
+{
+    var loc = event.getLocation();
+    this.dragon.controller.xTarget = loc.x;
+};
+
 
 Level.prototype.onUpdate = function(dt)
 {
@@ -46,10 +53,10 @@ Level.prototype.onUpdate = function(dt)
         var gameObjectController = gameObject.controller;
         if (gameObjectController)
         {
-            
+
             // Update all game objects
             gameObjectController.onUpdate();
-            
+
             // Check for collisions with dragon
             if (gameObject !== this.dragon)
             {
@@ -61,7 +68,7 @@ Level.prototype.onUpdate = function(dt)
             }
         }
     }
-    
+
     // Check for objects to remove
     for (var i = children.length-1; i >=0; i--)
     {
@@ -72,13 +79,13 @@ Level.prototype.onUpdate = function(dt)
             this.rootNode.removeChild(gameObject, true);
         }
     }
-    
+
     // Adjust position of the layer so dragon is visible
     var yTarget = kCDDragonTargetOffset - this.dragon.getPosition().y;
     var oldLayerPosition = this.rootNode.getPosition();
-    
+
     var xNew = oldLayerPosition.x;
     var yNew = yTarget * kCDScrollFilterFactor + oldLayerPosition.y * (1 - kCDScrollFilterFactor);
-    
+
     this.rootNode.setPosition(cc.p(xNew, yNew));
 }
