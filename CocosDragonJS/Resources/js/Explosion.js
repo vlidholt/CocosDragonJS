@@ -5,7 +5,7 @@ var Explosion = function()
 
 Explosion.prototype.onDidLoadFromCCB = function()
 {
-    this.rootNode.animationManager.setCompletedAnimationCallback(this.onAnimationComplete, this);
+    this.rootNode.animationManager.setCompletedAnimationCallback(this, this.onAnimationComplete);
 };
 
 Explosion.prototype.onUpdate = function()

@@ -15,6 +15,11 @@ Level.prototype.onDidLoadFromCCB = function()
         this.controller.onTouchesMoved(touches, event);
         return true;
     };
+    this.rootNode.onMouseDragged = function( event) {
+        this.controller.onMouseDragged(event);
+        return true;
+    };
+
 
     // Schedule callback
     this.rootNode.onUpdate = function(dt) {
