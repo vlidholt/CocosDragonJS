@@ -2747,11 +2747,11 @@
 				<key>type</key>
 				<string>Check</string>
 				<key>value</key>
-				<false/>
+				<true/>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>isMouseEnabled</string>
+				<string>mouseEnabled</string>
 				<key>platform</key>
 				<string>Mac</string>
 				<key>type</key>
@@ -2770,6 +2770,8 @@
 				<false/>
 			</dict>
 		</array>
+		<key>selected</key>
+		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>

@@ -2,7 +2,9 @@ var kCDScrollFilterFactor = 0.1;
 var kCDDragonTargetOffset = 80;
 
 
-var Level = function(){};
+var Level = function(){
+    this.winSize = cc.Director.getInstance().getWinSize();
+};
 
 Level.prototype.onDidLoadFromCCB = function()
 {
@@ -20,6 +22,9 @@ Level.prototype.onDidLoadFromCCB = function()
         return true;
     };
 
+    this.rootNode.onAccelerometer = function( event) {
+        this.controller.onAccelerometer(event);
+    };
 
     // Schedule callback
     this.rootNode.onUpdate = function(dt) {
@@ -44,6 +49,13 @@ Level.prototype.onMouseDragged = function(event)
 {
     var loc = event.getLocation();
     this.dragon.controller.xTarget = loc.x;
+};
+
+Level.prototype.onAccelerometer = function(accelEvent)
+{
+    var newX = this.winSize.width * accelEvent.x + this.winSize.width/2;
+    this.dragon.controller.xTarget = newX;
+    // cc.log('Accel x: '+ accelEvent.x + ' y:' + accelEvent.y + ' z:' + accelEvent.z + ' time:' + accelEvent.timestamp );
 };
 
 
