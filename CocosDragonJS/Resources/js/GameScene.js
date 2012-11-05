@@ -22,6 +22,11 @@
  * SOFTWARE.
  */
 
+//
+// Controller for the GameScene Object
+// This object loads the main Scene
+//
+
 var GameScene = function(){};
 var sharedGameScene;
 
@@ -34,7 +39,6 @@ GameScene.prototype.onDidLoadFromCCB = function()
     var level = cc.Reader.load("Level.ccbi");
 
     this.rootNode.addChild(level);
-
 };
 
 GameScene.prototype.setScore = function(score)

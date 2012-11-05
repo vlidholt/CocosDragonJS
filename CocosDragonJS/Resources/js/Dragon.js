@@ -22,6 +22,10 @@
  * SOFTWARE.
  */
 
+//
+// controller for the Dragon Object (the Hero)
+//
+
 // Constants
 var CD_START_SPEED = 8;
 var CD_COIN_SPEED = 8;

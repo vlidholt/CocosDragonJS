@@ -22,6 +22,11 @@
  * SOFTWARE.
  */
 
+//
+// Controller for the Bomb Object
+// This object is run when the Dragon (hero) touches a bomb
+//
+
 var Explosion = function()
 {
     this.radius = 15;

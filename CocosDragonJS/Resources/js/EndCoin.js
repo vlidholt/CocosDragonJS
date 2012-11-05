@@ -22,6 +22,10 @@
  * SOFTWARE.
  */
 
+//
+// Controller for the EndCoin object
+// When the Dragon (hero) touches this object, the game is won.
+//
 var EndCoin = function()
 {
     this.radius = 15;

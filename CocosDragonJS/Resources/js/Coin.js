@@ -23,6 +23,11 @@
  */
 
 
+//
+// Controller for the Coin Object
+// When the Dragon (hero) touches this object, the Dragon moves upwards
+//
+
 var Coin = function()
 {
     this.radius = 15;

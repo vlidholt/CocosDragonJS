@@ -22,7 +22,10 @@
  * SOFTWARE.
  */
 
-
+//
+// Controller for the Bomb Object
+// When the Dragon (hero) touches this object, the Dragon moves downwards.
+//
 var Bomb = function()
 {
     this.radius = 15;
