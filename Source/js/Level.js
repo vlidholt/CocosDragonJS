@@ -26,7 +26,7 @@ var CD_SCROLL_FILTER_FACTOR = 0.1;
 var CD_DRAGON_TARGET_OFFET = 80;
 
 // Accelerometer
-var CD_ACCEL_FILTER_FACTOR = 0.2;
+var CD_ACCEL_FILTER_FACTOR = 0.25;
 
 
 /**
