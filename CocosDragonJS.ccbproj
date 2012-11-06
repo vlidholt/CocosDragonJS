@@ -17,7 +17,7 @@
 	<key>fileVersion</key>
 	<integer>1</integer>
 	<key>flattenPaths</key>
-	<true/>
+	<false/>
 	<key>javascriptBased</key>
 	<true/>
 	<key>javascriptMainCCB</key>
