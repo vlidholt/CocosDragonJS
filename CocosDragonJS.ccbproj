@@ -25,7 +25,7 @@
 	<key>onlyPublishCCBs</key>
 	<false/>
 	<key>publishDirectory</key>
-	<string>Resources</string>
+	<string>Published files iOS</string>
 	<key>publishDirectoryAndroid</key>
 	<string></string>
 	<key>publishDirectoryHTML5</key>
@@ -68,15 +68,15 @@
 	<array>
 		<dict>
 			<key>path</key>
-			<string>images</string>
+			<string>Source/images</string>
 		</dict>
 		<dict>
 			<key>path</key>
-			<string>interface</string>
+			<string>Source/interface</string>
 		</dict>
 		<dict>
 			<key>path</key>
-			<string>js</string>
+			<string>Source/js</string>
 		</dict>
 	</array>
 </dict>
