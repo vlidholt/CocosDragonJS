@@ -46,7 +46,7 @@
 						<array>
 							<real>160</real>
 							<real>40</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -96,7 +96,7 @@
 						<array>
 							<real>50</real>
 							<real>219</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -146,7 +146,7 @@
 						<array>
 							<real>262</real>
 							<real>217</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -196,7 +196,7 @@
 						<array>
 							<real>71</real>
 							<real>378</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -246,7 +246,7 @@
 						<array>
 							<real>192</real>
 							<real>361</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -296,7 +296,7 @@
 						<array>
 							<real>239</real>
 							<real>500</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -346,7 +346,7 @@
 						<array>
 							<real>235</real>
 							<real>634</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -396,7 +396,7 @@
 						<array>
 							<real>174</real>
 							<real>770</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -446,7 +446,7 @@
 						<array>
 							<real>77</real>
 							<real>887</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -496,7 +496,7 @@
 						<array>
 							<real>59</real>
 							<real>1022</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -546,7 +546,7 @@
 						<array>
 							<real>133</real>
 							<real>1169</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -596,7 +596,7 @@
 						<array>
 							<real>239</real>
 							<real>1296</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -646,7 +646,7 @@
 						<array>
 							<real>261</real>
 							<real>1448</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -696,7 +696,7 @@
 						<array>
 							<real>224</real>
 							<real>1606</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -746,7 +746,7 @@
 						<array>
 							<real>142</real>
 							<real>1708</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -796,7 +796,7 @@
 						<array>
 							<real>67</real>
 							<real>1814</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -846,7 +846,7 @@
 						<array>
 							<real>57</real>
 							<real>2027</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -896,7 +896,7 @@
 						<array>
 							<real>267</real>
 							<real>2117</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -946,7 +946,7 @@
 						<array>
 							<real>65</real>
 							<real>2247</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -996,7 +996,7 @@
 						<array>
 							<real>261</real>
 							<real>2326</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1046,7 +1046,7 @@
 						<array>
 							<real>157</real>
 							<real>2457</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1096,7 +1096,7 @@
 						<array>
 							<real>157</real>
 							<real>2571</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1146,7 +1146,7 @@
 						<array>
 							<real>157</real>
 							<real>2692</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1196,7 +1196,7 @@
 						<array>
 							<real>157</real>
 							<real>2816</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1246,7 +1246,7 @@
 						<array>
 							<real>81</real>
 							<real>2953</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1296,7 +1296,7 @@
 						<array>
 							<real>57</real>
 							<real>3079</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1346,7 +1346,7 @@
 						<array>
 							<real>95</real>
 							<real>3224</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1396,7 +1396,7 @@
 						<array>
 							<real>192</real>
 							<real>3354</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1446,7 +1446,7 @@
 						<array>
 							<real>245</real>
 							<real>3464</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1496,7 +1496,7 @@
 						<array>
 							<real>226</real>
 							<real>3593</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1546,7 +1546,7 @@
 						<array>
 							<real>157</real>
 							<real>3693</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1596,7 +1596,7 @@
 						<array>
 							<real>75</real>
 							<real>3804</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1646,7 +1646,7 @@
 						<array>
 							<real>160</real>
 							<real>4007</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1696,7 +1696,7 @@
 						<array>
 							<real>266</real>
 							<real>427</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1746,7 +1746,7 @@
 						<array>
 							<real>124</real>
 							<real>458</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1796,7 +1796,7 @@
 						<array>
 							<real>53</real>
 							<real>521</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1846,7 +1846,7 @@
 						<array>
 							<real>84</real>
 							<real>681</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1896,7 +1896,7 @@
 						<array>
 							<real>240</real>
 							<real>1011</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1946,7 +1946,7 @@
 						<array>
 							<real>71</real>
 							<real>1318</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1996,7 +1996,7 @@
 						<array>
 							<real>119</real>
 							<real>1529</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -2046,7 +2046,7 @@
 						<array>
 							<real>244</real>
 							<real>1826</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -2096,7 +2096,7 @@
 						<array>
 							<real>193</real>
 							<real>1985</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -2146,7 +2146,7 @@
 						<array>
 							<real>76</real>
 							<real>2388</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -2196,7 +2196,7 @@
 						<array>
 							<real>68</real>
 							<real>2739</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -2246,7 +2246,7 @@
 						<array>
 							<real>222</real>
 							<real>3041</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -2296,7 +2296,7 @@
 						<array>
 							<real>75</real>
 							<real>3520</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -2346,7 +2346,7 @@
 						<array>
 							<real>234</real>
 							<real>3799</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -2396,7 +2396,7 @@
 						<array>
 							<real>262</real>
 							<real>4046</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -2446,7 +2446,7 @@
 						<array>
 							<real>271</real>
 							<real>3966</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -2496,7 +2496,7 @@
 						<array>
 							<real>53</real>
 							<real>3954</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -2546,7 +2546,7 @@
 						<array>
 							<real>74</real>
 							<real>4030</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -2596,7 +2596,7 @@
 						<array>
 							<real>79</real>
 							<real>3892</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -2646,7 +2646,7 @@
 						<array>
 							<real>53</real>
 							<real>105</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -2770,8 +2770,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>selected</key>
-		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
