@@ -74,24 +74,31 @@ Level.prototype.onDidLoadFromCCB = function()
 //
 Level.prototype.onTouchesBegan = function(touches, event)
 {
+	if (gSettingControlType != CD_CONTROLTYPE_TOUCH) return;
+	
     var loc = touches[0].getLocation();
     this.dragon.controller.xTarget = loc.x;
 };
 
 Level.prototype.onTouchesMoved = function(touches, event)
 {
+	if (gSettingControlType != CD_CONTROLTYPE_TOUCH) return;
+	
     var loc = touches[0].getLocation();
     this.dragon.controller.xTarget = loc.x;
 };
 
 Level.prototype.onMouseDragged = function(event)
 {
+	if (gSettingControlType != CD_CONTROLTYPE_TOUCH) return;
+	
     var loc = event.getLocation();
     this.dragon.controller.xTarget = loc.x;
 };
 
 Level.prototype.onAccelerometer = function(accelEvent)
 {
+	if (gSettingControlType != CD_CONTROLTYPE_TILT) return;
 
     // low pass filter for accelerometer. This makes the movement softer
     var accelX = accelEvent.x * CD_ACCEL_FILTER_FACTOR + (1 - CD_ACCEL_FILTER_FACTOR) * this.prevX;

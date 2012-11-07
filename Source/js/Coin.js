@@ -40,6 +40,7 @@ Coin.prototype.handleCollisionWith = function(gameObjectController)
 {
     if (gameObjectController.controllerName == "Dragon")
     {
+    	cc.AudioEngine.getInstance().playEffect("Coin.caf");
         this.isScheduledForRemove = true;
     }
 };

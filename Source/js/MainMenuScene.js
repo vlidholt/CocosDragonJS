@@ -22,10 +22,58 @@
  * SOFTWARE.
  */
 
+var CD_CONTROLTYPE_TOUCH = 0;
+var CD_CONTROLTYPE_TILT = 1;
+
+var gSettingMusicEnabled = true;
+var gSettingControlType;
+
 var MainMenuScene = function(){};
+
+MainMenuScene.prototype.updateSettingsDisplay = function()
+{
+	// Music on/off
+	this.sprtMusicOff.setVisible(!gSettingMusicEnabled);
+	
+	// Controls
+	if (gSettingControlType == CD_CONTROLTYPE_TOUCH)
+	{
+		this.sprtControlTouch.setVisible(true);
+		this.sprtControlTilt.setVisible(false);
+	}
+	else
+	{
+		this.sprtControlTouch.setVisible(false);
+		this.sprtControlTilt.setVisible(true);
+	}
+};
+
+MainMenuScene.prototype.onDidLoadFromCCB = function()
+{
+	this.updateSettingsDisplay();
+};
 
 MainMenuScene.prototype.onPressedPlay = function()
 {
     var scene = cc.Reader.loadAsScene("GameScene.ccbi");
     cc.Director.getInstance().replaceScene(scene);
+};
+
+MainMenuScene.prototype.onPressedMusic = function()
+{
+	gSettingMusicEnabled = !gSettingMusicEnabled;
+	this.updateSettingsDisplay();
+};
+
+MainMenuScene.prototype.onPressedControl = function()
+{
+	if (gSettingControlType == CD_CONTROLTYPE_TOUCH)
+	{
+		gSettingControlType = CD_CONTROLTYPE_TILT;
+	}
+	else
+	{
+		gSettingControlType = CD_CONTROLTYPE_TOUCH;
+	}
+	this.updateSettingsDisplay();
 };

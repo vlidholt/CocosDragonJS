@@ -78,6 +78,10 @@
 			<key>path</key>
 			<string>Source/js</string>
 		</dict>
+		<dict>
+			<key>path</key>
+			<string>Source/sounds</string>
+		</dict>
 	</array>
 </dict>
 </plist>
