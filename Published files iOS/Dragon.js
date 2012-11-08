@@ -39,7 +39,7 @@ var CD_DELTA_TO_ROTATION_FACTOR = 5;
 
 var Dragon = function()
 {
-    this.xTarget = CD_START_TARGET;
+    this.xTarget = CD_START_TARGET*gScaleFactor;
     this.ySpeed = CD_START_SPEED;
     this.radius = 25;
 };
@@ -47,11 +47,11 @@ var Dragon = function()
 Dragon.prototype.onUpdate = function()
 {
     // Calculate the new position
-    var oldPosition = this.rootNode.getPosition();
+    var oldPosition = cc.pMult(this.rootNode.getPosition(), 1.0/gScaleFactor);
 
-    var xNew = this.xTarget * CD_TARGET_FILTER_FACTOR + oldPosition.x * (1-CD_TARGET_FILTER_FACTOR);
+    var xNew = (this.xTarget/gScaleFactor) * CD_TARGET_FILTER_FACTOR + oldPosition.x * (1-CD_TARGET_FILTER_FACTOR);
     var yNew = oldPosition.y + this.ySpeed;
-    this.rootNode.setPosition(xNew, yNew);
+    this.rootNode.setPosition(xNew*gScaleFactor, yNew*gScaleFactor);
 
     // Update the vertical speed
     this.ySpeed = (this.ySpeed - CD_GRAVITY_SPEED) * CD_SLOW_DOWN_FACTOR;

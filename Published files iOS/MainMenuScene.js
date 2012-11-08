@@ -28,6 +28,12 @@ var CD_CONTROLTYPE_TILT = 1;
 var gSettingMusicEnabled = true;
 var gSettingControlType;
 
+var gWinSize = cc.Director.getInstance().getWinSize();
+
+var gScaleFactor;
+if (gWinSize.width <= 320) gScaleFactor = 1;
+else gScaleFactor = 2;
+
 var MainMenuScene = function(){};
 
 MainMenuScene.prototype.updateSettingsDisplay = function()

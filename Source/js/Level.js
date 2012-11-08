@@ -22,12 +22,12 @@
  * SOFTWARE.
  */
 
+var CD_LEVEL_WIDTH = 320;
 var CD_SCROLL_FILTER_FACTOR = 0.1;
 var CD_DRAGON_TARGET_OFFET = 80;
 
 // Accelerometer
 var CD_ACCEL_FILTER_FACTOR = 0.25;
-
 
 /**
  * Level is the controller object of the game:
@@ -77,7 +77,7 @@ Level.prototype.onTouchesBegan = function(touches, event)
 	if (gSettingControlType != CD_CONTROLTYPE_TOUCH) return;
 	
     var loc = touches[0].getLocation();
-    this.dragon.controller.xTarget = loc.x;
+    this.dragon.controller.xTarget = loc.x - gLevelOffsetX;
 };
 
 Level.prototype.onTouchesMoved = function(touches, event)
@@ -85,7 +85,7 @@ Level.prototype.onTouchesMoved = function(touches, event)
 	if (gSettingControlType != CD_CONTROLTYPE_TOUCH) return;
 	
     var loc = touches[0].getLocation();
-    this.dragon.controller.xTarget = loc.x;
+    this.dragon.controller.xTarget = loc.x - gLevelOffsetX;
 };
 
 Level.prototype.onMouseDragged = function(event)
@@ -126,14 +126,16 @@ Level.prototype.onUpdate = function(dt)
         gameObjectController = gameObject.controller;
         if (gameObjectController)
         {
-
             // Update all game objects
             gameObjectController.onUpdate();
+            
+            var gameObjectPos = cc.pMult(gameObject.getPosition(), 1.0/gScaleFactor);
+            var dragonPos = cc.pMult(this.dragon.getPosition(), 1.0/gScaleFactor);
 
             // Check for collisions with dragon
             if (gameObject !== this.dragon)
             {
-                if (cc.pDistance(gameObject.getPosition(), this.dragon.getPosition()) < gameObjectController.radius + this.dragon.controller.radius)
+                if (cc.pDistance(gameObjectPos, dragonPos) < gameObjectController.radius + this.dragon.controller.radius)
                 {
                     gameObjectController.handleCollisionWith(this.dragon.controller);
                     this.dragon.controller.handleCollisionWith(gameObjectController);
