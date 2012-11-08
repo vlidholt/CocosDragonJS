@@ -103,7 +103,7 @@
 					</dict>
 					<dict>
 						<key>name</key>
-						<string>isMouseEnabled</string>
+						<string>mouseEnabled</string>
 						<key>platform</key>
 						<string>Mac</string>
 						<key>type</key>
@@ -168,8 +168,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>baseClass</key>
@@ -240,7 +238,7 @@
 					</dict>
 					<dict>
 						<key>name</key>
-						<string>isMouseEnabled</string>
+						<string>mouseEnabled</string>
 						<key>platform</key>
 						<string>Mac</string>
 						<key>type</key>
@@ -282,9 +280,9 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>160</real>
-							<real>40</real>
-							<integer>1</integer>
+							<real>50</real>
+							<real>91.666664123535156</real>
+							<integer>4</integer>
 						</array>
 					</dict>
 					<dict>
@@ -335,7 +333,7 @@
 						<key>value</key>
 						<array>
 							<real>24</real>
-							<integer>0</integer>
+							<integer>1</integer>
 						</array>
 					</dict>
 					<dict>
@@ -347,7 +345,7 @@
 						<array>
 							<real>100</real>
 							<real>40</real>
-							<integer>0</integer>
+							<integer>5</integer>
 						</array>
 					</dict>
 					<dict>
@@ -375,6 +373,8 @@
 						<string>0</string>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
@@ -455,7 +455,7 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>isMouseEnabled</string>
+				<string>mouseEnabled</string>
 				<key>platform</key>
 				<string>Mac</string>
 				<key>type</key>
