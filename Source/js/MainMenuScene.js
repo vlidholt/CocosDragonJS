@@ -25,6 +25,7 @@
 var CD_CONTROLTYPE_TOUCH = 0;
 var CD_CONTROLTYPE_TILT = 1;
 
+// Setup global variables
 var gSettingMusicEnabled = true;
 var gSettingControlType;
 
@@ -33,6 +34,14 @@ var gWinSize = cc.Director.getInstance().getWinSize();
 var gScaleFactor;
 if (gWinSize.width <= 320) gScaleFactor = 1;
 else gScaleFactor = 2;
+
+// Start playing looped background music
+cc.AudioEngine.getInstance().setEffectsVolume(0.2);
+cc.AudioEngine.getInstance().playMusic("Music.mp3");
+
+//
+// MainMenuScene class
+//
 
 var MainMenuScene = function(){};
 
@@ -68,6 +77,16 @@ MainMenuScene.prototype.onPressedPlay = function()
 MainMenuScene.prototype.onPressedMusic = function()
 {
 	gSettingMusicEnabled = !gSettingMusicEnabled;
+	
+	if (gSettingMusicEnabled)
+	{
+    	cc.AudioEngine.getInstance().playMusic("Music.mp3");
+    }
+    else
+    {
+    	cc.AudioEngine.getInstance().stopMusic();
+    }
+	
 	this.updateSettingsDisplay();
 };
 
