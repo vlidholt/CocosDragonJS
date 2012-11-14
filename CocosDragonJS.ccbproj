@@ -29,19 +29,19 @@
 	<key>publishDirectoryAndroid</key>
 	<string></string>
 	<key>publishDirectoryHTML5</key>
-	<string></string>
+	<string>Published files HTML5</string>
 	<key>publishEnabledAndroid</key>
 	<false/>
 	<key>publishEnabledHTML5</key>
-	<false/>
+	<true/>
 	<key>publishEnablediPhone</key>
 	<true/>
 	<key>publishResolutionHTML5_height</key>
-	<integer>640</integer>
+	<integer>480</integer>
 	<key>publishResolutionHTML5_scale</key>
-	<integer>2</integer>
+	<integer>1</integer>
 	<key>publishResolutionHTML5_width</key>
-	<integer>960</integer>
+	<integer>320</integer>
 	<key>publishResolution_</key>
 	<true/>
 	<key>publishResolution_hd</key>
