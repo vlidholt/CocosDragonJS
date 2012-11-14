@@ -45,6 +45,5 @@ Explosion.prototype.handleCollisionWith = function(gameObjectController)
 
 Explosion.prototype.onAnimationComplete = function(animationManager)
 {
-    cc.log("removing explosion!");
     this.isScheduledForRemove = true;
 };
