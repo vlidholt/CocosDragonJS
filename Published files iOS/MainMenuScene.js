@@ -27,7 +27,7 @@ var CD_CONTROLTYPE_TILT = 1;
 
 // Setup global variables
 var gSettingMusicEnabled = true;
-var gSettingControlType;
+var gSettingControlType = CD_CONTROLTYPE_TOUCH;
 
 var gWinSize = cc.Director.getInstance().getWinSize();
 
